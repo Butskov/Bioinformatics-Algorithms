@@ -38,6 +38,7 @@ Return: All integer(s) i minimizing Skew(Prefixi (Text)) over all values of i (f
 
 Sample Dataset
 CCTATCGGTGGATTAGCATGTCCCTGTACGTTTCGCCGCGAACTAGTTCACACGGCTTGATGGCAAATGGTTTTTCCGGCGACCGTAATCGTCCACCGAG
+
 Sample Output
 53 97
 
@@ -55,6 +56,7 @@ Sample Dataset
 ATTCTGGA
 CGCCCGAATCCAGAACGCATTCCCATATTTCGGGACCACTGGCCTCCACGGTACGGACGTCAATCAAATGCCTAGCGGCTTGTGGTTTCTCCTACGCTCC
 3
+
 Sample Output
 6 7 26 27 78
 
@@ -75,6 +77,7 @@ Return: All most frequent k-mers with up to d mismatches in Text.
 Sample Dataset
 ACGTTGCATGTCGCATGATGCATGAGAGCT
 4 1
+
 Sample Output
 GATG ATGC ATGT
 # 5 - Find Frequent Words with Mismatches and Reverse Complements
@@ -90,6 +93,7 @@ Return: All k-mers Pattern maximizing the sum Countd(Text, Pattern) + Countd(Tex
 Sample Dataset
 ACGTTGCATGTCGCATGATGCATGAGAGCT
 4 1
+
 Sample Output
 ATGT ACAT
 # 6 - Implement GreedyMotifSearch
@@ -118,6 +122,7 @@ AAGAATCAGTCA
 CAAGGAGTTCGC
 CACGTCAATCAC
 CAATAATATTCG
+
 Sample Output
 CAG
 CAG
@@ -137,6 +142,7 @@ AAGAATCAGTCA
 CAAGGAGTTCGC
 CACGTCAATCAC
 CAATAATATTCG
+
 Sample Output
 TTC
 ATC
@@ -167,6 +173,7 @@ GGGCGAGGTATGTGTAAGTGCCAAGGTGCCAG
 TAGTACCGAGACCGAAAGAAGTATACAGGCGT
 TAGATCAAGTTTCAGGTGCACGTCGGTGAACC
 AATCCACCAGCTCCACGTGCAATGTTGGCCTA
+
 Sample Output
 TCTCGGGG
 CCAAGGTG
@@ -198,6 +205,7 @@ GGGCGAGGTATGTGTAAGTGCCAAGGTGCCAG
 TAGTACCGAGACCGAAAGAAGTATACAGGCGT
 TAGATCAAGTTTCAGGTGCACGTCGGTGAACC
 AATCCACCAGCTCCACGTGCAATGTTGGCCTA
+
 Sample Output
 TCTCGGGG
 CCAAGGTG
@@ -226,6 +234,7 @@ Return: DistanceBetweenPatternAndStrings(Pattern, Dna).
 Sample Dataset
 AAA
 TTACCTTAAC GATATCTGTC ACGGCGTTCG CCCTAAAGAG CGTCAGAGGT
+
 Sample Output
 5
 # 11 - Reconstruct a String from its k-mer Composition
@@ -244,6 +253,7 @@ TACC
 GGCT
 GCTT
 TTAC
+
 Sample Output
 GGCTTACCA
 # 12 - Find a k-Universal Circular String
@@ -258,6 +268,7 @@ Return: A k-universal circular string. (If multiple answers exist, you may retur
 
 Sample Dataset
 4
+
 Sample Output
 0000110010111101
 # 13 - Reconstruct a String from its Paired Composition
@@ -281,6 +292,7 @@ GTGG|GTGA
 TGAG|GTTG
 GGTC|GAGA
 GTCG|AGAT
+
 Sample Output
 GTGGTCGTGAGATGTTGA
 # 14 - Generate Contigs from a Collection of Reads
@@ -300,6 +312,7 @@ CAT
 GGA
 GAT
 AGA
+
 Sample Output
 AGA ATG ATG CAT GAT TGGA TGT
 # 15 -  Construct a String Spelled by a Gapped Genome Path
@@ -317,5 +330,6 @@ ACCG|CGCC
 CCGA|GCCG
 CGAG|CCGG
 GAGC|CGGA
+
 Sample Output
 GACCGAGCGCCGGA
